@@ -14,6 +14,9 @@ const xyz = css`
 */
   * {
     margin: 0;
+
+    --black: hsl(0, 0%, 10%);
+    --gold: hsl(31, 41%, 64%);
   }
   /*
   3. Allow percentage-based heights in the application
@@ -32,8 +35,8 @@ const xyz = css`
     -webkit-font-smoothing: antialiased;
 
     font-family: Arial, Helvetica, sans-serif;
-    color: hsl(31, 41%, 64%);
-    background-color: hsl(0, 0%, 10%);
+    color: var(--gold);
+    background-color: var(--black);
   }
   /*
   6. Improve media defaults
