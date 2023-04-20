@@ -1,9 +1,10 @@
-import './styles/App.css';
+import { Header, Home } from './components';
 
 function App() {
   return (
     <>
-      <h1>MOVE</h1>
+      <Header />
+      <Home />
     </>
   );
 }
