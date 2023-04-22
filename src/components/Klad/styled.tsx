@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.main`
+export const KladContainer = styled.main`
   padding: 24px;
 `;

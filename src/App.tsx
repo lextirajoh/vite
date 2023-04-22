@@ -1,10 +1,10 @@
-import { Header, Home } from './components';
+import { Header, Klad } from './components';
 
 function App() {
   return (
     <>
       <Header />
-      <Home />
+      <Klad />
     </>
   );
 }
